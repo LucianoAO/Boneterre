@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AU+QLD:wght@100..400&family=Playwrite+NO:wght@100..400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 100%;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  height: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-family: "Josefin Sans", sans-serif;
+  font-variant: small-caps;
+}
+
+#header1 {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+#header2 {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  align-items: center;
+}
+#header2 h1 {
+  font-family: "Playwrite AU QLD", cursive;
+  color: #018419;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 75%;
+  background-color: #2A983F;
+}
+main h2 {
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section#servico {
+  height: 100%;
+  background-color: #066217;
+  width: 80%;
+  padding: 20px;
+}
+
+section#img-sec {
+  height: 100%;
+  width: 30%;
+  background-image: url(/imgs/image001.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 2px 5px 4px 2px rgba(0, 0, 0, 0.307);
+}
+
+ul {
+  margin: 0px 0px 0px 40px;
+  padding: 5px;
+  list-style-type: square;
+}
+ul li {
+  color: white;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6em;
+  margin-top: 5px;
+}
+
+footer {
+  padding: 1px;
+  height: 5%;
+  background-color: #1a1919;
+}/*# sourceMappingURL=style.css.map */
