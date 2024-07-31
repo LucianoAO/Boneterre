@@ -19,7 +19,7 @@ header {
     display: flex;
     width: 100%;
     background-color: #f7f7f7;
-    height: 12rem;
+    height: 10rem;
     h1 {
         color: #000000;
         font-size: 2.5em;
@@ -33,7 +33,7 @@ header {
 
     img {
         width: 10rem;
-        animation: fadeInDown;
+        animation: flipInY;
         animation-duration: 1s;
     }
 }
@@ -70,7 +70,7 @@ hr {
 main {
     display: flex;
     width: 100%;
-    height: 50rem;
+    height: 55rem;
     background-color: #2A983F;
 
     h2 {
@@ -81,6 +81,9 @@ main {
         font-family: Montserrat;
         font-size: 3.5rem;
         font-weight: 800;
+
+        animation: fadeInLeft;
+        animation-duration: 1s;
     }
 
 }
@@ -93,12 +96,13 @@ section#servico {
 }
 
 section#img-sec {
+    perspective: 2px;
     height: 100%;
     width: 40%;
     background-image: url(/imgs/image001.png);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 2px 5px 4px 2px rgba(0, 0, 0, 0.307);
+    box-shadow: inset 4px 4px 3px 1px rgba(0, 0, 0, 0.307);
 }
 
 ul {
@@ -106,6 +110,8 @@ ul {
     padding: 5px;
     list-style-type: disc;
     li {
+        animation: fadeInLeft;
+        animation-duration: 1s;
         transition: 0.5s ease;
         color: rgb(0, 0, 0);
         padding: 5px;
@@ -116,8 +122,8 @@ ul {
     }
 
     li:hover {
-        transform: scale(1.1);
-        margin-left: 2rem;
+        transform: scale(1.05);
+        margin-left: 1rem;
     }
 }
 
@@ -126,14 +132,16 @@ ul {
     flex-direction: row;
     text-align: center;
     width: 100%;
-    height: 10rem;
+    height: 15rem;
 
    button#contato {
+    animation: fadeInDown;
+    animation-duration: 1s;
     color: #ffff;
     border: none;
     padding: 14px 20px 19px 20px;
     margin: auto;
-    width: 20rem;
+    width: 23rem;
     border-radius: 1rem;
     background-color: #018419;
     font-weight: bold;
@@ -154,13 +162,79 @@ button#contato:hover {
     transform: scale(1.1); 
 }
 
-section.avaliacoes {
+.container-carrosel {
+    height: 25rem;
     width: 100%;
-    height: 15rem;
+}
+
+.carrosel {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
+
+    .slide {
+        padding: 4rem 10rem;
+        cursor: grab; 
+    }
+
+    .slide:active {
+        cursor: grabbing;
+    }
+    
+    div.container-carrosel {
+
+        div.border {
+            transition: 500ms ease; 
+            border: 1px solid #E1E1E1;
+            padding: 2rem;
+        }
+
+        div.border:hover {
+            transition: 500ms ease; 
+            border: 1px solid #2a983e9a;
+        }
+
+        i.bi-quote {
+            
+            display: flex;
+            font-size: 90px;
+            color: #c7c7c7;
+            transform: rotate(180deg);
+        }
+
+        .depoi-txt {
+            font-family: Epilogue, sans-serif;
+            font-weight: 300;
+            margin-bottom: 2rem;
+
+
+        }
+    }
+
+    div.estrelas {
+        color: #FBBC04;
+    }
+
+    .nav-btn {
+        color: #018419;
+    }
+}
+
+
+
+section.maps {
+    width: 100%;
+    height: 20rem;
     background-color: #f7f7f7;
     }
 
-div.avaliacoes-background {
+div.maps-background {
     height: 100%;
     background-color: #f7f7f7;
     display: flex;
@@ -180,8 +254,8 @@ footer {
 
     padding: 1px;
     height: 5rem;
-    background-color: #f7f7f7;
-    color: #018419;
+    background-color: #4a4a4a;
+    color: #019b1d;
     font-family: Teko;
     font-weight: bold;
     font-size: 2rem;
