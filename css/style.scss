@@ -201,19 +201,29 @@ button#contato:hover {
         }
 
         i.bi-quote {
-            
+            transition: 500ms ease; 
             display: flex;
-            font-size: 90px;
+            font-size: 70px;
             color: #c7c7c7;
             transform: rotate(180deg);
+        }
+
+        .autor {
+            font-family: Inter, sans-serif;
+            font-weight: bold;
+            font-size: 1em;
+            margin-bottom: 1rem;
+        }
+
+        span.comentario-span {
+            font-family: Epilogue, sans-serif;
+            font-weight: 300;
         }
 
         .depoi-txt {
             font-family: Epilogue, sans-serif;
             font-weight: 300;
             margin-bottom: 2rem;
-
-
         }
     }
 
@@ -223,6 +233,10 @@ button#contato:hover {
 
     .nav-btn {
         color: #018419;
+    }
+
+    .swiper-pagination-bullet{
+        background-color: #019b1d;
     }
 }
 

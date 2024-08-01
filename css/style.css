@@ -183,10 +183,21 @@ button#contato:hover {
   border: 1px solid rgba(42, 152, 62, 0.6039215686);
 }
 .carrosel div.container-carrosel i.bi-quote {
+  transition: 500ms ease;
   display: flex;
-  font-size: 90px;
+  font-size: 70px;
   color: #c7c7c7;
   transform: rotate(180deg);
+}
+.carrosel div.container-carrosel .autor {
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 1rem;
+}
+.carrosel div.container-carrosel span.comentario-span {
+  font-family: Epilogue, sans-serif;
+  font-weight: 300;
 }
 .carrosel div.container-carrosel .depoi-txt {
   font-family: Epilogue, sans-serif;
@@ -198,6 +209,9 @@ button#contato:hover {
 }
 .carrosel .nav-btn {
   color: #018419;
+}
+.carrosel .swiper-pagination-bullet {
+  background-color: #019b1d;
 }
 
 section.maps {
