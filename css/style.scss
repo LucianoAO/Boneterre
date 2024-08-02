@@ -110,7 +110,7 @@ section#img-sec {
     box-shadow: inset 4px 4px 3px 1px rgba(0, 0, 0, 0.307);
 }
 
-ul {
+ul.ul-main {
     margin: 0px 0px 0px 40px;
     padding: 5px;
     list-style-type: disc;
@@ -245,8 +245,9 @@ button#contato:hover {
 
 
 section.maps {
+    padding-top: 2rem;
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     background-color: #f7f7f7;
     }
 
@@ -259,7 +260,7 @@ div.maps-background {
 
 .iframe-maps {
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 footer {
@@ -303,17 +304,29 @@ footer {
         justify-content: center;
 
         ul {
-
-
-
+            
             li.li-footer {
-                
                 list-style: none;
+
                 a {
-                    color: #BBBBBB;
+                    color: #0861F2;
                     text-decoration: none;
+                    padding: 5px;
+                    font-family: Inter, sans-serif;
+                    font-size: 1.2rem;
+                    margin-top: 5px;
+                    line-height: 3;
+                    margin-left: 1.2rem;
                 }
+
             }
+            li.li-footer:hover {
+                animation: headShake;
+                animation-duration: 1s;
+
+            }
+
+
         }
     }
 
@@ -327,6 +340,17 @@ footer {
             margin-bottom: 3rem;
         }
     }
+    
+    .footer-instagram {
+        background: linear-gradient( to right, #D300C5, #FF204E,#D54F14, #FFC800);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        background-clip: text;
+        color: transparent;
+    }
+
 
 
 }

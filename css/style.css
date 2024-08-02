@@ -102,12 +102,12 @@ section#img-sec {
   box-shadow: inset 4px 4px 3px 1px rgba(0, 0, 0, 0.307);
 }
 
-ul {
+ul.ul-main {
   margin: 0px 0px 0px 40px;
   padding: 5px;
   list-style-type: disc;
 }
-ul li {
+ul.ul-main li {
   animation: fadeInLeft;
   animation-duration: 1s;
   transition: 0.5s ease;
@@ -215,8 +215,9 @@ button#contato:hover {
 }
 
 section.maps {
+  padding-top: 2rem;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
   background-color: #f7f7f7;
 }
 
@@ -229,7 +230,7 @@ div.maps-background {
 
 .iframe-maps {
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 footer {
@@ -271,8 +272,18 @@ footer .footer-flex ul li.li-footer {
   list-style: none;
 }
 footer .footer-flex ul li.li-footer a {
-  color: #BBBBBB;
+  color: #0861F2;
   text-decoration: none;
+  padding: 5px;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  line-height: 3;
+  margin-left: 1.2rem;
+}
+footer .footer-flex ul li.li-footer:hover {
+  animation: headShake;
+  animation-duration: 1s;
 }
 footer .footer-boneterre {
   margin-left: 4rem;
@@ -283,4 +294,11 @@ footer .footer-boneterre h2 {
   font-family: Montserrat, sans-serif;
   color: #4e4e4e;
   margin-bottom: 3rem;
+}
+footer .footer-instagram {
+  background: linear-gradient(to right, #D300C5, #FF204E, #D54F14, #FFC800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }/*# sourceMappingURL=style.css.map */
