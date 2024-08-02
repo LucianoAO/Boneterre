@@ -2,9 +2,6 @@
   header {
     width: 100%;
   }
-  body {
-    overflow-x: hidden;
-  }
 }
 @media screen and (max-width: 1196px) {
   header img {
@@ -17,8 +14,8 @@
   #header1 h1 {
     font-size: 4rem;
   }
-  body {
-    overflow-x: hidden;
+  body ::-webkit-scrollbar {
+    overflow-y: hidden;
   }
   main {
     height: 45rem;
@@ -47,8 +44,8 @@
   }
 }
 @media screen and (max-width: 971px) {
-  body {
-    overflow-x: hidden;
+  body ::-webkit-scrollbar {
+    overflow-y: hidden;
   }
   main {
     height: 51rem;
@@ -104,8 +101,8 @@
   }
 }
 @media screen and (max-width: 750px) {
-  body {
-    overflow-x: hidden;
+  body ::-webkit-scrollbar {
+    overflow-y: hidden;
   }
   main {
     height: 60rem;
@@ -164,8 +161,8 @@
   #header1 h1 {
     font-size: 2rem;
   }
-  body {
-    overflow-x: hidden;
+  body ::-webkit-scrollbar {
+    overflow-y: hidden;
   }
   main {
     height: 70rem;
