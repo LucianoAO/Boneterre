@@ -218,7 +218,7 @@ section.maps {
   padding-top: 2rem;
   width: 100%;
   height: 25rem;
-  background-color: #FFFFFF;
+  background-color: hsl(0, 0%, 100%);
 }
 
 div.maps-background {
