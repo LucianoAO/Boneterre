@@ -153,7 +153,7 @@ button#contato:hover {
 
 .container-carrosel {
   height: 25rem;
-  width: 100%;
+  width: 98%;
 }
 
 .carrosel {
@@ -255,7 +255,7 @@ footer .footer-address {
   padding-left: 2rem;
   align-items: center;
   height: 100%;
-  padding-right: 2rem;
+  padding-right: 0;
 }
 footer .border-2 {
   display: flex;
@@ -287,7 +287,7 @@ footer .footer-flex ul li.li-footer:hover {
 }
 footer .footer-boneterre {
   margin-left: 4rem;
-  padding-right: 2rem;
+  padding-right: 0;
   border-right: 2px solid #e1e1e1;
 }
 footer .footer-boneterre h2 {

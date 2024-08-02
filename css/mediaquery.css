@@ -2,9 +2,6 @@
   header {
     width: 100%;
   }
-  body {
-    overflow-x: hidden;
-  }
 }
 @media screen and (max-width: 1196px) {
   header img {
@@ -17,8 +14,8 @@
   #header1 h1 {
     font-size: 4rem;
   }
-  body {
-    overflow-x: hidden;
+  body ::-webkit-scrollbar {
+    overflow-y: hidden;
   }
   main {
     height: 45rem;
@@ -47,8 +44,8 @@
   }
 }
 @media screen and (max-width: 971px) {
-  body {
-    overflow-x: hidden;
+  body ::-webkit-scrollbar {
+    overflow-y: hidden;
   }
   main {
     height: 51rem;
@@ -104,8 +101,8 @@
   }
 }
 @media screen and (max-width: 750px) {
-  body {
-    overflow-x: hidden;
+  body ::-webkit-scrollbar {
+    overflow-y: hidden;
   }
   main {
     height: 60rem;
@@ -164,8 +161,8 @@
   #header1 h1 {
     font-size: 2rem;
   }
-  body {
-    overflow-x: hidden;
+  body ::-webkit-scrollbar {
+    overflow-y: hidden;
   }
   main {
     height: 70rem;
@@ -189,6 +186,7 @@
     width: 75%;
   }
   .container-carrosel {
+    width: 100%;
     height: 25rem;
     margin-bottom: 2rem;
   }
@@ -210,7 +208,7 @@
     cursor: grabbing;
   }
   .carrosel div.container-carrosel {
-    width: 100%;
+    display: none;
   }
   .carrosel div.container-carrosel div.border {
     transition: 500ms ease;
@@ -349,11 +347,11 @@
 }
 @media screen and (max-width: 375px) {
   header img {
-    width: 5rem;
+    width: 20%;
   }
   #header1 {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 100%;
     background-color: #ffffff;
   }
@@ -371,8 +369,7 @@
   }
   .carrosel {
     margin: auto;
-    margin-left: -30%;
-    width: 160%;
+    width: 100;
     height: 100%;
     display: flex;
     justify-content: center;
