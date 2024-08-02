@@ -87,6 +87,10 @@ section#servico {
   width: 60%;
   padding: 20px;
 }
+section#servico li:hover {
+  transform: scale(1.05);
+  margin-left: 1rem;
+}
 
 section#img-sec {
   perspective: 2px;
@@ -113,10 +117,6 @@ ul li {
   font-size: 1rem;
   margin-top: 5px;
   line-height: 2;
-}
-ul li:hover {
-  transform: scale(1.05);
-  margin-left: 1rem;
 }
 
 .container-contato {
@@ -237,11 +237,50 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 1px;
-  height: 5rem;
-  background-color: #4a4a4a;
-  color: #019b1d;
-  font-family: Teko;
+  height: 15rem;
+  background-color: #f7f7f7;
+  color: #679b71;
+  font-family: Inter, sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   word-spacing: 0.2rem;
+  line-height: 2rem;
+}
+footer .address-container {
+  border-right: 2px solid #e1e1e1;
+}
+footer .footer-address {
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+  height: 100%;
+  padding-right: 2rem;
+}
+footer .border-2 {
+  display: flex;
+}
+footer .footer-flex {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-flex ul li.li-footer {
+  list-style: none;
+}
+footer .footer-flex ul li.li-footer a {
+  color: #BBBBBB;
+  text-decoration: none;
+}
+footer .footer-boneterre {
+  margin-left: 4rem;
+  padding-right: 2rem;
+  border-right: 2px solid #e1e1e1;
+}
+footer .footer-boneterre h2 {
+  font-family: Montserrat, sans-serif;
+  color: #4e4e4e;
+  margin-bottom: 3rem;
 }/*# sourceMappingURL=style.css.map */
