@@ -219,9 +219,6 @@
   .carrosel .slide:active {
     cursor: grabbing;
   }
-  .carrosel div.container-carrosel {
-    display: none;
-  }
   .carrosel div.container-carrosel div.border {
     transition: 500ms ease;
     padding: 1rem;
