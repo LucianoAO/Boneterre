@@ -47,6 +47,12 @@
   }
 }
 @media screen and (max-width: 971px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
   html {
     overflow-x: hidden;
   }
@@ -167,6 +173,12 @@
   }
 }
 @media screen and (max-width: 570px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
   #header1 h1 {
     font-size: 2rem;
   }
@@ -332,6 +344,12 @@
   }
 }
 @media screen and (max-width: 467px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
   header img {
     width: 5rem;
   }
