@@ -21,9 +21,12 @@
         }
     }
 
+    html {
+        overflow-x: hidden;
+    }
 
     body {
-        ::-webkit-scrollbar { overflow-y:hidden; }
+        overflow-x: hidden;
     }
 
     main {
@@ -64,8 +67,13 @@
 }
 
 @media screen and (max-width: 971px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
     body {
-        ::-webkit-scrollbar { overflow-y:hidden; }
+        overflow-x: hidden;
     }
 
     main {
@@ -137,8 +145,13 @@
 }
 
 @media screen and (max-width: 750px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
     body {
-        ::-webkit-scrollbar { overflow-y:hidden; }
+        overflow-x: hidden;
     }
 
     main {
@@ -220,8 +233,12 @@ footer {
         }
     }
 
+    html {
+        overflow-x: hidden;
+    }
+
     body {
-        ::-webkit-scrollbar { overflow-y:hidden; }
+        overflow-x: hidden;
     }
 
     main {
