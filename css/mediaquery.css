@@ -14,6 +14,9 @@
   #header1 h1 {
     font-size: 4rem;
   }
+  html {
+    overflow-x: hidden;
+  }
   body ::-webkit-scrollbar {
     overflow-y: hidden;
   }
@@ -44,6 +47,9 @@
   }
 }
 @media screen and (max-width: 971px) {
+  html {
+    overflow-x: hidden;
+  }
   body ::-webkit-scrollbar {
     overflow-y: hidden;
   }
@@ -101,6 +107,9 @@
   }
 }
 @media screen and (max-width: 750px) {
+  html {
+    overflow-x: hidden;
+  }
   body ::-webkit-scrollbar {
     overflow-y: hidden;
   }
@@ -160,6 +169,9 @@
 @media screen and (max-width: 570px) {
   #header1 h1 {
     font-size: 2rem;
+  }
+  html {
+    overflow-x: hidden;
   }
   body ::-webkit-scrollbar {
     overflow-y: hidden;
